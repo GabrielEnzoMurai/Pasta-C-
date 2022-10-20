@@ -1,2 +1,2 @@
-# Reposit-rio
+# Repositorio
 Portfólio Digital TI
