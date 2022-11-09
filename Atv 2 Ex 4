@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+	
+	setlocale(LC_ALL, "Portuguese");
+	
+	printf("\nExercício 4);
+	
+	int v[10],i,soma=0,maior=0,menor=0;
+	
+	for (i=0;i<10;i++){
+	printf("\nEntre com um valor:  ");
+	scanf("%d", &v[i]);
+
+	if (v[i]<=0){
+		printf("Valor inválido");
+		break;
+	}
+}
+for (i= 0; i < 10;i++){
+
+    if (i == 0) {
+        v[i] = maior;
+    }
+    if (v[i] > maior) {
+      maior = v[i];
+      for (i= 0; i < 10i++) {
+    if (i == 0) {
+        v[i] = maior;
+    }
+    if (v[i] <meor
+      maior = v[i];
