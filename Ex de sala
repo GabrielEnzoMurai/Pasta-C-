@@ -1,0 +1,22 @@
+/******************************************************************************
+ Gabriel Enzo Murai 19/09/22 - Exercício
+*******************************************************************************/
+#include <stdio.h>
+
+int imprime (char var, int x) {
+    for (int l=1; l<=x; l++){
+        for (int c=1; c<=l; c++){
+            printf ("%c", var);
+        }
+        printf ("\n");
+    }
+    return x * x;
+}
+
+int main() {
+    int qtd;
+    qtde = imprime ('/',4);
+    
+    printf ("Foram impressos %d caracteres no primeiro e %d no segundo", qtd, imprime ('!',5) );
+    return 0;
+}
