@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+int fibo (int n) {
+    int x;
+    printf("\nDentro da função fibo n=%d", n);
+    
+    if(n==1){
+        return (1);
+    }
+    else if(n==2){
+        return (1);
+    }
+        x = fibo(n-1) + fibo(n-2);
+    return x;
+}
+
+int main()
+{
+    int aux, n;
+    
+    printf("Digite o valor de n: ");
+    scanf ("%d", &n);
+    
+    aux = fibo(n);
+    
+    printf ("\n\nO valor retornado é %d", aux);
+
+    return 0;
+}
